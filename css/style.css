@@ -1,0 +1,24 @@
+#pokecontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:90vw;
+    gap: 10px;
+}
+#pokecontainer > div {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(65, 65, 65);
+    border-radius: 25px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+#pokecontainer > div > img {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+}
